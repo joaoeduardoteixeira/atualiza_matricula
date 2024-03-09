@@ -1,0 +1,105 @@
+/* Estilo global */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Estilo do cabeçalho */
+.header {
+    background-color: #f2f2f2; /* Fundo cinza fraco */
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px; /* Ajuste conforme o tamanho do seu logo */
+    height: auto;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+#blueDiv {
+    background-color: #cfe2f3; /* Azul claro */
+    width: 15cm;
+    height: 15cm;
+    margin: 2cm auto; /* Centraliza a div na tela */
+    border-radius: 10px; /* Arredonda as bordas */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Aplica uma sombra */
+    position: relative; /* Permite posicionar a nova div dentro desta */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    padding-top: 60px; /* Espaçamento superior para separar do cabeçalho */
+}
+
+#headerDiv {
+    color:#ffffff ;
+    position: absolute; /* Permite posicionar o texto de forma absoluta */
+    top: 0; /* Alinha o topo da nova div com o topo da div pai */
+    left: 0; /* Alinha a esquerda da nova div com a esquerda da div pai */
+    width: 547px; /* Faz a nova div ocupar toda a largura da div pai */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Adiciona um espaçamento interno */
+    background-color: #7da3e9; /* Azul-royal */
+    border-top-left-radius: 10px; /* Arredonda apenas a borda superior esquerda */
+    border-top-right-radius: 10px; /* Arredonda apenas a borda superior direita */
+    
+}
+h2{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:200%;
+    /* text-decoration: underline; sublinhado*/
+}
+#conteudoDiv{
+
+    color:rgb(59, 59, 59);
+    text-align: center;
+    
+    
+    font-size: 100%;
+    
+}
+
+.container {
+    width: auto;
+   
+}
+
+.rounded-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 20%;
+    text-align: center;
+    border: none;
+    border-radius: 20px; /* Define cantos arredondados */
+    background-color: #7da3e9; /* Cor de fundo do botão (azul) */
+    color: white; /* Cor do texto do botão */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.rounded-button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+#codigoInput{
+    
+    border-width: 1px;
+    background-color:rgb(247, 236, 236);
+    width: 50%;
+    border-style: solid;
+    height: 30px;
+}
